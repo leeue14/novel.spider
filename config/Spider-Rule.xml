@@ -37,6 +37,16 @@
 		<title>看书中 非书勿扰</title>
 		<charset>GBK</charset>
 		<url>http://www.kanshuzhong.com</url>
+		
 		<chapter-list-selector>.bookcontent dd a</chapter-list-selector>
+		<chapter-detail-title-selector>#nr1 h2,0</chapter-detail-title-selector>
+		<chapter-detail-content-selector>.textcontent</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>.readlink a,1</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>.readlink a,3</chapter-detail-next-selector>
+		
+		<novel-cover-selector>.readtip div a,0</novel-cover-selector>
+		<novel-desc-selector>.readtip,0</novel-desc-selector>
+		
+		
 	</site>
 </sites>
